@@ -31,7 +31,7 @@ const App = () => {
             <th>Avatar</th>
           </thead>
           {
-            loading ? ( <h1>No data found to display</h1> ) : (
+            loading ? ( <h1>No data found</h1> ) : (
               <tbody>
                 {users.map((user) => (
                   <tr>
